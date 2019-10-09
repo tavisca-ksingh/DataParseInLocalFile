@@ -1,0 +1,44 @@
+<DeptList xmlns="">
+    <department>
+        <department>
+            <e_name/><dept_id>1</dept_id><salary>0.0</salary><dept_name>HR</dept_name>
+            <employee>
+                <employee>
+                    <id>1</id><e_name>Ram</e_name><dept_id>1</dept_id><salary>50000.0</salary><department/>
+                </employee>
+                <employee>
+                    <id>2</id><e_name>Sham</e_name><dept_id>1</dept_id><salary>60000.0</salary><department/>
+                </employee>
+            </employee>
+            <department/></department>
+        <department>
+            <e_name/><dept_id>2</dept_id><salary>0.0</salary><dept_name>Software Developer</dept_name>
+            <employee>
+                <employee>
+                    <id>3</id><e_name>Mohan</e_name><dept_id>2</dept_id><salary>30000.0</salary><department/>
+                </employee>
+                <employee>
+                    <id>7</id><e_name>Jaideb</e_name><dept_id>2</dept_id><salary>90000.0</salary><department/>
+                </employee></employee>
+            <department/></department>
+        <department>
+            <e_name/><dept_id>3</dept_id><salary>0.0</salary><dept_name>QA</dept_name>
+            <employee>
+                <employee>
+                    <id>5</id><e_name>Krrish</e_name><dept_id>3</dept_id><salary>70000.0</salary><department/>
+                </employee>
+                <employee>
+                    <id>6</id><e_name>Bibek</e_name><dept_id>3</dept_id><salary>80000.0</salary><department/>
+                </employee>
+            </employee>
+            <department/></department>
+        <department>
+            <e_name/><dept_id>4</dept_id><salary>0.0</salary><dept_name>Data Analyst</dept_name>
+            <employee>
+                <employee>
+                    <id>4</id><e_name>Karan</e_name><dept_id>4</dept_id><salary>60000.0</salary><department/>
+                </employee>
+            </employee>
+            <department/></department>
+    </department>
+</DeptList>

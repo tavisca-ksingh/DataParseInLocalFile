@@ -1,11 +1,29 @@
-package com.example.employeeData;
+package com.example.employeeData.pojo;
 
-public class Employee {
+import com.fasterxml.jackson.xml.annotate.JacksonXmlProperty;
+import java.io.Serializable;
+
+
+public class Employee implements Serializable {
     private  int id;
     private String e_name;
     private int dept_id;
     private  double salary;
+    @JacksonXmlProperty(localName = "department")
     private Dept dept;
+
+    public Employee() {
+
+    }
+
+
+    public Employee(int id, String e_name,int dept_id, double salary ) {
+        this.id = id;
+        this.e_name = e_name;
+        this.dept_id = dept_id;
+        this.salary = salary;
+
+    }
 
     public Employee(int id, String e_name,Dept dept, double salary ) {
         this.id = id;
@@ -38,13 +56,24 @@ public class Employee {
         this.salary = salary;
     }
 
-    public Dept getDept() {
-        return dept;
-    }
 
     public void setDept(Dept dept) {
         this.dept = dept;
     }
+
+    public int getDept_id() {
+        return dept_id;
+    }
+
+    public void setDept_id(int dept_id) {
+        this.dept_id = dept_id;
+    }
+
+    public Dept getDept() {
+        return dept;
+    }
+
+
 
     @Override
     public String toString() {

@@ -1,0 +1,57 @@
+[ {
+  "id" : 1,
+  "e_name" : "Ram",
+  "salary" : 50000.0,
+  "dept" : {
+    "id" : 1,
+    "dept_name" : "HR"
+  }
+}, {
+  "id" : 2,
+  "e_name" : "Sham",
+  "salary" : 60000.0,
+  "dept" : {
+    "id" : 1,
+    "dept_name" : "HR"
+  }
+}, {
+  "id" : 3,
+  "e_name" : "Mohan",
+  "salary" : 30000.0,
+  "dept" : {
+    "id" : 2,
+    "dept_name" : "Software Developer"
+  }
+}, {
+  "id" : 4,
+  "e_name" : "Karan",
+  "salary" : 60000.0,
+  "dept" : {
+    "id" : 4,
+    "dept_name" : "Data Analyst"
+  }
+}, {
+  "id" : 5,
+  "e_name" : "Krrish",
+  "salary" : 70000.0,
+  "dept" : {
+    "id" : 3,
+    "dept_name" : "QA"
+  }
+}, {
+  "id" : 6,
+  "e_name" : "Bibek",
+  "salary" : 80000.0,
+  "dept" : {
+    "id" : 3,
+    "dept_name" : "QA"
+  }
+}, {
+  "id" : 7,
+  "e_name" : "Jaideb",
+  "salary" : 90000.0,
+  "dept" : {
+    "id" : 2,
+    "dept_name" : "Software Developer"
+  }
+} ]

@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29703dc3-45ef-42c3-9a0e-66873b20cee8" name="Default Changelist" comment="" />
+    <list default="true" id="29703dc3-45ef-42c3-9a0e-66873b20cee8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/db/DeptList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/db/EmployeesList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/db/Manufacturer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/db/PhoneDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/main/DepartmentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/writer/XmlFileDeptWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/MySqlCon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/writer/CsvFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/writer/CsvFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/writer/IWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/writer/IWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/writer/JsonFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/writer/JsonFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/writer/XmlFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/employeeData/writer/XmlFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonFile.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonFile_15-59-48.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonFile_16-00-06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/employeeData/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/db/Dept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/employeeData/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/db/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/employeeData/MySqlCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/sqlConnection/MySqlCon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/employeeData/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/main/EmployeeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/employeeData/writer/CsvFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/writer/CsvFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/employeeData/writer/IWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/writer/IWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/employeeData/writer/JsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/writer/JsonFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/employeeData/writer/XmlFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/employeeData/writer/XmlFile.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +56,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RrPYkgEkgmDuZuBVrOpFMcrryB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/employeeData/writer" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -54,20 +94,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Service">
-    <configuration name="MySqlCon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.employeeData.MySqlCon" />
-      <module name="untitled.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Service" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.employeeData.Service" />
+  <component name="RunManager" selected="Application.EmployeeMain">
+    <configuration name="EmployeeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.employeeData.main.EmployeeMain" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.employeeData.*" />
+          <option name="PATTERN" value="com.example.employeeData.sqlConnection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,9 +108,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MySqlCon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.employeeData.sqlConnection.MySqlCon" />
+      <module name="untitled.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Service" />
+        <item itemvalue="Application.EmployeeMain" />
         <item itemvalue="Application.MySqlCon" />
       </list>
     </recent_temporary>
@@ -94,5 +134,18 @@
       <updated>1570422290443</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

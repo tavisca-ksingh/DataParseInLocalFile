@@ -1,0 +1,13 @@
+<PhoneDetails xmlns="">
+    <manufacturer>
+        <name>OnePlus</name><country>China</country>
+        <other_phones>
+            <phone>OnePlus 6T</phone>
+            <phone>OnePlus 5T</phone>
+            <phone>OnePlus 5</phone>
+        </other_phones>
+    </manufacturer>
+    <name>OnePlus</name>
+    <displaySize>6.4</displaySize>
+    <memory>6/64 GB</memory>
+</PhoneDetails>

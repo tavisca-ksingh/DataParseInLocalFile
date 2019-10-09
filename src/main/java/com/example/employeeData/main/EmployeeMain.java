@@ -1,15 +1,14 @@
-package com.example.employeeData;
+package com.example.employeeData.main;
 
 
-import com.example.employeeData.writer.CsvFile;
-import com.example.employeeData.writer.IWriter;
-import com.example.employeeData.writer.JsonFile;
-import com.example.employeeData.writer.XmlFile;
+import com.example.employeeData.sqlConnection.DeptSqlConn;
+import com.example.employeeData.sqlConnection.MySqlCon;
+import com.example.employeeData.writer.*;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Service {
+public class EmployeeMain {
     public static void main(String[] args) throws IOException {
         MySqlCon mySqlCon = new MySqlCon();
         mySqlCon.readSql();
@@ -41,6 +40,7 @@ public class Service {
                 System.out.println("Wrong Input");
                 break;
         }
+
         writer.writeFiles(location, mySqlCon.employeeList);
     }
 }

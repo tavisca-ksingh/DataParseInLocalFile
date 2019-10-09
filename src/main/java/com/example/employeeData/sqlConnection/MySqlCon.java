@@ -1,11 +1,15 @@
-package com.example.employeeData;
+package com.example.employeeData.sqlConnection;
+
+import com.example.employeeData.pojo.Dept;
+import com.example.employeeData.pojo.Employee;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class MySqlCon {
-    public static List<Employee> employeeList= new ArrayList<>();
+    public static List<Employee> employeeList =new LinkedList<>();
     public static List<Dept> departmentList = new ArrayList<>();
     public static void readSql() {
                 try {
@@ -18,6 +22,7 @@ public class MySqlCon {
         //SQL Query
             ResultSet resultSet = statement.executeQuery("Select * from employee");
             ResultSet resultSetDept = statement1.executeQuery("Select * from department");
+
         // Process The result Set
                     ProcessDeptResultIntoList(resultSetDept);
                     ProcessTheResultSetIntoList(resultSet);
